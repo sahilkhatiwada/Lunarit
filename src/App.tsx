@@ -8,7 +8,7 @@ import FAQ from './components/home/Faq/Faq';
 import Contact from './components/home/Contact';
 import ProductSection from './components/home/Product/Product';
 import OurClients from './components/home/Client/Client';
-import TestimonialSection from './components/home/Testimonals/Testimonal';
+// import TestimonialSection from './components/home/Testimonals/Testimonal';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <ProductSection />
         <OurClients />
         <Stats />
-        <TestimonialSection/>
+        {/* <TestimonialSection/> */}
         <FAQ />
         <Contact />
       </main>
