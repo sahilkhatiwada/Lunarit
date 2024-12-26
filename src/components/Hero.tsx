@@ -13,7 +13,7 @@ export default function Hero() {
         </p>
         <div className="space-x-4">
           <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors">
-            Get Started
+            About Us
           </button>
           <button className="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-blue-50 transition-colors">
             Contact Us
@@ -24,7 +24,7 @@ export default function Hero() {
         <img
           src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80"
           alt="IT Solutions"
-          className="w-full object-cover rounded-lg"
+          className="w-full object-cover rounded-lg "
         />
       </div>
     </div>

@@ -3,7 +3,6 @@ const links = [
   { href: '#about', label: 'About' },
   { href: '#services', label: 'Services' },
   { href: '#products', label: 'Products' },
-  { href: '#faq', label: 'Faq' },
   { href: '#contact', label: 'Contact' },
 ];
 

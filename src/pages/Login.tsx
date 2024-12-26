@@ -1,5 +1,5 @@
 import React from 'react';
-import LoginButton from '../components/Button';
+
 
 const LoginForm: React.FC = () => {
   const handleLogin = () => {
@@ -43,7 +43,10 @@ const LoginForm: React.FC = () => {
               className="w-full px-4 py-2 mt-2 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
             />
           </div>
-          <LoginButton label="Login" onClick={handleLogin} />
+        
+          <button onClick={handleLogin} className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors">
+            LogIn
+          </button>
         </form>
       </div>
     </div>
