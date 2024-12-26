@@ -75,7 +75,7 @@ const OurClients: React.FC = () => {
   return (
     <section className="bg-white dark:bg-gray-900 py-8 lg:py-16">
       <div className="container mx-auto max-w-screen-xl px-4">
-        <h2 className="text-center text-3xl font-extrabold tracking-tight leading-tight text-blue-600 dark:text-white md:text-4xl mb-8 lg:mb-16">
+        <h2 className="text-center text-3xl font-extrabold tracking-tight leading-tight text-blue-500  md:text-4xl mb-8 lg:mb-16">
           Our Clients
         </h2>
         <div className="grid grid-cols-2 gap-8 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 text-gray-500 dark:text-gray-400">
