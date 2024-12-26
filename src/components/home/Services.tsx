@@ -1,4 +1,3 @@
-import React from 'react';
 import { Monitor, Smartphone, Server, Cloud, Shield, Database } from 'lucide-react';
 import ServiceCard from './ServiceCard';
 
