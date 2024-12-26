@@ -17,6 +17,14 @@ const products = [
     image: 'https://via.placeholder.com/150',
     link: '/product-2',
   },
+  {
+    id: 3,
+    title: 'LunaHR (Human Resource Management)',
+    description:
+      'LunaHR is a comprehensive HR management tool that simplifies employee tracking, payroll processing, performance evaluations, and recruitment workflows. Perfect for small to medium-sized businesses.',
+    image: 'https://via.placeholder.com/150',
+    link: '/product-3',
+  },
 ];
 
 export default function ProductSection() {
@@ -26,7 +34,7 @@ export default function ProductSection() {
         <h2 className="text-3xl font-bold text-center mb-8 text-blue-500">
           Our Products
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-col-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product) => (
             <div
               key={product.id}
